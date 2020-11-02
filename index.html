@@ -1,48 +1,42 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>trangquanao</title>
-    <link rel="stylesheet" href="wed.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="do hoa.css">
 </head>
 
 <body>
-    <div id="menutop">
-        <ul>
-            <li><a href="" title="Trangchu" class="at"> trang chu</a></li>
-            <li><a href="" title="Danhgnhap"> dang nhap</a></li>
-            <li><a href="" title="Dangki"> dang ki </a></li>
-            <li><a href="" title="Gioithieu"> gioi thieu</a></li>
-            <li><a href="" title="Khuyenmai"> khuyen mai</a></li>
-            <li><a href="" title="lienhe"> lien he </a></li>
-            <li> <a href="link gio hang" title="Giohang"><img src="7d722daaf3b970372ec61a7f0069f21a.png_wh860.png"
-                        alt=""> </a></li>
-            <li><a href="link tim kiem" title="Search"><input type="search" name="" id=""><button onclick="sreach">
-                        sreach</button></a></li>
-        </ul>
+    <div>
+        <div class="option">
+            <div class="item trang chu">
+                <a href="cua hang quan ao.html">Trang chủ</a>
+            </div>
+            <div class="itemnam">
+                <button onclick="dataNam()">Nam</button>
+            </div>
+            <div class="itemnữ">
+                <button onclick="dataNu()">Nu</button>
+            </div>
+            search: <input onkeypress="enterLogin(event, this)" id="search" placeholder="tìm kiếm" type="text">
+            <button onclick="data()">
+                ok
+            </button>
+            <button>
+                <a href="gio hang.html"><img width="15px" height="15px" src="https://vinagex.com/template/images/cart.png" alt=""><span id="luonghang"></span></a>
+            </button>
+        </div>
+        <img class="imp"
+            src="https://png.pngtree.com/thumb_back/fh260/background/20190813/pngtree-creative-halloween-modern-paper-art-ghost-balloon-header-banner-background-image_298401.jpg"
+            alt="">
     </div>
-    <div id="banner"><img src="nguon-hang-quan-ao-tu-bac-vao-nam.jpg" alt=""></div>
-    <div id="main">
-        <ul>
-            <li><a href="link vao trang quan"> Quan </a></li>
-            <li><a href="link vao trang ao"> ao </a></li>
-            <li><a href="link vao trang hoodi"> hoodie </a></li>
-            <li class="anh"><a href=""><img src="tải xuống (1).jpg" alt=""></a></li>
-            <li class="anh"><a href=""><img src="tải xuống (2).jpg" alt=""></a></li>
-            <li class="anh"><a href=""><img src="images (1).jpg" alt=""></a></li>
+    <hr>
+    <div id="list-phone">
 
-        </ul>
     </div>
-    <div id="footer">
-        <ul>
-            <li>Cong ty quan ao paduto</li>
-            <li>van phong lam viec : tang 6,toa Aeptc,phuong dong da ha noi</li>
-            <li>dien thoai lien he 09473842942</li>
-            <li>Email: trangquanao@gmail.com</li>
-
-        </ul>
-    </div>
+    <script src="du lieu.js"></script>
 </body>
 
 </html>
