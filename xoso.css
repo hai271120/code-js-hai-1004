@@ -1,0 +1,17 @@
+.dau{
+    background: blue;
+    height: 30px;
+    width: 100%;
+    text-align: center
+}
+.vien{
+    background-color: brown;
+    margin: auto;
+    width: 30%;
+    border: 3px solid purple;
+    padding: 10px;
+}
+hienthi{
+    margin: auto;
+    padding: 10px;
+}
